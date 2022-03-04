@@ -1,8 +1,0 @@
-const add = require("./add")
-const divd = require("./divd")
-const mult = require("./mult")
-const sub = require("./sub")
-console.log(add(4,2))
-console.log(divd(4,2))
-console.log(mult(4,2))
-console.log(sub(4,2))
