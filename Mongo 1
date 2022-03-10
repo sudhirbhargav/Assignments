@@ -1,0 +1,17 @@
+mongo
+
+show dbs
+
+use assignments
+
+db.createCollection("user")
+
+db.user.insertMany([{"last_name": "shah"} , {"email": "abc@gmail.com"}, {"genddb.user.insertMany([{"last_name": "shah"} , {"email": "abc@gmail.com"}, {"gender": "male"}, {"ip_address": "12345"} ,{"last_name": "shukla"} , {"email": "xyz@gmail.com"}, {"gender": "female"}, {"ip_address": "46577"},{"last_name": "yeda"} , {"email": "ghi@gmail.com"} ])
+
+db.user.find()
+
+db.user.findOne({"gender" : "male"})
+
+db.user.remove({"gender" : "male"})
+
+db.user.deleteMany({"gender" : "male"},{"gender" : "female"})
